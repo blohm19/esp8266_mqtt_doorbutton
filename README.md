@@ -4,7 +4,7 @@ Connects an ESP-01 to an existing doorbell and issues a message via MQTT, when s
 
 **Wiring**
 
-The wiring of the ESP-01 is so, that an AC voltage (~9V) of an existing wired door bell triggers a reset of the ESP-01, so that it leaves the deepsleep. The existing doorbell is connected to J1. 
+The wiring of the ESP-01 is so, that an AC voltage (~9V) of an existing wired door bell triggers a reset of the ESP-01, so that it leaves the deepsleep. The existing doorbell is connected to J1. The AC is converted into a DC impulse using an Opto-isolator (here a 4N35)
 
 The ESP-01 can operate with just 3V, so here, two AA batteries are used here.
 
