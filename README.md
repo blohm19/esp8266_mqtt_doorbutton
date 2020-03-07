@@ -1,4 +1,4 @@
-# esp8266_mqtt_doorbutton
+# ESP8266 Doorbutton with MQTT
 Connects an ESP-01 to an existing doorbell and issues a message via MQTT, when someone rings.
 
 
